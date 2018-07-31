@@ -1,0 +1,18 @@
+&config
+ mosaic_file_target_grid="/scratch4/NCEPDEV/global/save/glopara/svn/fv3gfs/fix/fix_fv3_gmted2010/C384/C384_mosaic.nc"
+ fix_dir_target_grid="/scratch3/BMC/gsienkf/Scott.Gregory/CHGRES/C384"
+ orog_dir_target_grid="/scratch4/NCEPDEV/global/save/glopara/svn/fv3gfs/fix/fix_fv3_gmted2010/C384"
+ orog_files_target_grid="C384_oro_data.tile1.nc","C384_oro_data.tile2.nc","C384_oro_data.tile3.nc","C384_oro_data.tile4.nc","C384_oro_data.tile5.nc","C384_oro_data.tile6.nc"
+ mosaic_file_input_grid="/scratch4/NCEPDEV/global/save/glopara/svn/fv3gfs/fix/fix_fv3_gmted2010/C128/C128_mosaic.nc"
+ orog_dir_input_grid="/scratch4/NCEPDEV/global/save/glopara/svn/fv3gfs/fix/fix_fv3_gmted2010/C128"
+ orog_files_input_grid="C128_oro_data.tile1.nc","C128_oro_data.tile2.nc","C128_oro_data.tile3.nc","C128_oro_data.tile4.nc","C128_oro_data.tile5.nc","C128_oro_data.tile6.nc"
+ data_dir_input_grid="RESTART_PATH/MEMBER_NUMBER_PATH/INPUT"
+ vcoord_file_target_grid="/scratch4/NCEPDEV/global/save/glopara/svn/fv3gfs/fix/fix_am/global_hyblev.l64.txt"
+ cycle_mon=4
+ cycle_day=6
+ cycle_hour=0
+ convert_atm=.true.
+ convert_sfc=.true.
+ convert_nst=.false.
+ restart_file=.true.
+/
