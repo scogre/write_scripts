@@ -1,3 +1,9 @@
+# program to write the ensemble of restart files 
+# that have had the resolution changed from C128 to C384
+# from George Gayno's CHGRES code
+# written to the 'control' template at C384 res
+# in the filenames expected for restart application
+# written by Scott Gregory; CIRES-NOAA-ESRL-PSD-FMD
 from netCDF4 import Dataset
 import numpy as np
 import sys, os
